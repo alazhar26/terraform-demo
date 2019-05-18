@@ -10,7 +10,7 @@ terraform {
   }
 }
 
-module "RDS" {
+module "RDS_1" {
   source = "modules/RDS"
   rds_username = "${var.rds_username}"
   rds_password = "${var.rds_password}"
